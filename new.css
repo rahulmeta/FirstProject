@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* navsection*/
+.navbar{
+  height: 15vh;  
+  border-bottom: 2px solid rgb(212, 211, 211);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo{
+  background-image: url("starproject image/starbuckslogo.jpg");
+  height: 55px;
+  width: 57px;
+  background-size: cover;
+}
+.container{
+  /*  border: 2px solid black; */
+    height: 5vh;
+    width: 30vw;
+    margin-right: 240px;
+    font-size: 15px;
+}
+.container ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container li{
+    color: rgba(0, 0, 0, 0.87);
+    list-style: none;
+    padding-top: 8px;
+}
+.container li:hover{
+    color: rgb(0, 98, 65);
+}
+.container2{
+    height: 5vh;
+    width: 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container2:hover{
+    color: rgb(0, 98, 65);
+}
+.container3{
+    border: 1px solid black;
+    height: 5vh;
+    width: 7vw;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.container3:hover{
+    color: aliceblue;
+    background-color: rgb(0, 98, 65);
+    border-color: wheat;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    height: 5vh;
+    width: 8vw;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0);
+    color: beige;
+}
+.container4:hover{
+    background-color:  rgb(92, 92, 92);
+}
+/* main*/
+.main{
+    display: flex;
+}
+.hero{
+    margin-top: 5vh;
+    background-image: url("starproject image/image1.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 50%;
+}
+.hero-section{
+    margin-top: 5vh;
+    background-color: rgb(0, 98, 65);
+    height: 80vh;
+    width: 50%; 
+    color: white;
+    text-align: center;
+}
+ .first{
+    font-weight: bold;
+    font-size: 3.2rem;
+    padding: 75px 50px 20px 50px;
+    letter-spacing: 2px;
+ }
+ .second{
+    font-size: 1.5rem;
+    padding: 10px 90px ;
+ }
+ .third{
+    margin: 35px 225px;
+    border: 1px solid rgb(240, 182, 6);
+    width: 10vw;
+    height: 5vh;
+    border-radius: 15px;
+    background-color: rgb(0, 98, 65);
+ }
+ .third  p{
+    color: rgb(240, 182, 6);
+    text-align: center;
+    padding-top: 7px;
+}
+.third a{
+    text-decoration: none;
+}
+.third:hover{
+    background-color: rgb(1, 80, 53);
+}
+/* main2 */
+.main2{
+    display: flex;
+}
+.hero2{
+    margin-top: 5vh;
+    background-image: url("starproject image/image2.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 50%;
+}
+.hero-section2{
+    background-color: rgb(250, 154, 28);;
+    height: 80vh;
+    width: 50%; 
+    color: white;
+    text-align: center;
+    margin-top: 5vh;
+}
+.forth{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 3.2rem;
+    padding: 75px 80px 20px 80px;
+}
+.fifth{
+    font-size: 1.4rem;
+    padding: 10px 90px ;
+}
+.six{
+height: 4vh;
+width: 12vw;
+border: 2px solid rgb(198, 110, 3);
+border-radius: 19px;
+text-align: center;
+padding-top: 8px;
+margin: 25px 210px;
+}
+.six:hover{
+    background-color: rgb(228, 126, 2) ;
+}
+.six a{
+  color: black;
+  text-decoration: none;
+}
+/*main3*/
+
+.main3{
+display: flex;
+}
+.hero3{
+    margin-top: 5vh;
+    background-image: url("starproject image/image3.jpg");
+    background-size: cover;
+    height: 74vh;
+    width: 103.07vw;
+}
+.hero-section3{
+    background-color: rgb(176, 74, 90);
+    height: 74vh;
+    width: 103.07vw; 
+    color: white;
+    text-align: center;
+    margin-top: 5vh;
+}
+.seven{
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 3.2rem;
+    padding: 75px 80px 20px 80px;
+}
+.eight{
+    font-size: 1.5rem;
+    padding: 10px 90px ;
+}
+.nine{
+    text-align: center;
+    padding-top: 12px;
+    margin: 35px 225px;
+    border: 1px solid rgb(240, 182, 6);
+    width: 10vw;
+    height: 5vh;
+    border-radius: 17px;
+}
+.nine a{
+    color: rgb(240, 182, 6);
+    text-decoration: none;
+}
+.nine:hover{
+    background-color: rgb(103, 31, 42);
+}
+footer{
+    border-bottom: 1px solid rgb(180, 178, 178);
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 8vh;
+    margin: 6vh 6vw;
+   
+}
+/*footer-first*/
+.first-footer{
+    margin-top: 7.2vh;
+}
+.first-footer p{
+    font-size: 1.7rem;
+}
+.first-footer li{
+    font-size: 1rem;
+    margin-top: 4vh;
+     list-style: none;
+     color: rgb(135, 134, 134);
+}
+.first-footer li:hover{
+    color: rgb(44, 43, 43);
+}
+/*footer2nd*/
+.second-footer{
+    margin-top: 7.2vh;
+}
+.second-footer p{
+    font-size: 1.7rem;
+}
+.second-footer li{
+    font-size: 1rem;
+    margin-top: 4vh;
+     list-style: none;
+     color: rgb(135, 134, 134);
+}
+.second-footer li:hover{
+    color: rgb(44, 43, 43);
+}
+
+/*footer-third*/
+.third-footer{
+    margin-top: 7.2vh;
+}
+.third-footer p{
+    font-size: 1.7rem;
+}
+.third-footer li{
+    font-size: 1rem;
+    margin-top: 4vh;
+     list-style: none;
+     color: rgb(135, 134, 134);
+}
+.third-footer li:hover{
+    color: rgb(44, 43, 43);
+}
+.copyright{
+    margin: 5vh 30vw;
+    color: rgb(139, 138, 138);
+}
+
+
